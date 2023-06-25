@@ -16,7 +16,10 @@ function Profile({ username, tag, location, avatar, stats }) {
   return (
     <CardProfile>
       <Description>
-        <AvatarProfile src={avatar} alt="User avatar" />
+        <AvatarProfile
+          src={avatar}
+          alt="https://cdn-icons-png.flaticon.com/512/2922/2922506.png"
+        />
         <ProfileName>{username}</ProfileName>
         <ProfileTagLoc>@{tag}</ProfileTagLoc>
         <ProfileTagLoc>{location}</ProfileTagLoc>
