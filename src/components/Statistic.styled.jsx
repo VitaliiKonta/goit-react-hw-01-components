@@ -17,9 +17,12 @@ export const StatSection = styled.section`
 `;
 
 export const StatTitle = styled.h2`
-  padding: 16px;
-  color: grey;
-  font-size: 32px;
+  font-size: 22px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #000;
 `;
 
 export const StatList = styled.ul`
