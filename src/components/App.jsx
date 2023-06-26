@@ -1,10 +1,10 @@
-import Profile from './Profile';
+import Profile from '../components/Profile/Profile';
 import User from '../data/user.json';
-import Statistics from './Statistic';
+import Statistics from '../components/Statistic/Statistic';
 import Data from '../data/statistic.json';
-import FriendUl from './Friends';
+import FriendUl from '../components/Friends/Friends';
 import friends from '../data/friends.json';
-import TransactionHistory from './TransactionHistory';
+import TransactionHistory from '../components/Transaction/TransactionHistory';
 import Transactions from '../data/transactions.json';
 
 const { username, tag, location, avatar, stats } = User;
